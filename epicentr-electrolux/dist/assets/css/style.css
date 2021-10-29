@@ -1,0 +1,471 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html,
+body {
+  font-family: roboto, "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.electrolux-01 {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.electrolux-01 *,
+.electrolux-01 *::before,
+.electrolux-01 *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #041e41;
+}
+
+.electrolux-01 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.electrolux-01 h2,
+.electrolux-01 h3 {
+  font-weight: 500;
+}
+
+.electrolux-01 .bold {
+  font-weight: 700;
+}
+
+.electrolux-01 .center {
+  text-align: center;
+}
+
+.electrolux-01__header {
+  padding: 17px 22px;
+}
+
+.electrolux-01__perfect-air {
+  padding-bottom: 28px;
+  overflow-x: hidden;
+}
+
+.electrolux-01__perfect-air .electrolux-01__text.center,
+.electrolux-01__perfect-air .center.electrolux-01__online__text,
+.electrolux-01__perfect-air .electrolux-01__block-text p.center,
+.electrolux-01__block-text .electrolux-01__perfect-air p.center,
+.electrolux-01__perfect-air .electrolux-01__block-text li.center,
+.electrolux-01__block-text .electrolux-01__perfect-air li.center,
+.electrolux-01__perfect-air .center.electrolux-01__card-box__item__text {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.electrolux-01__section-title {
+  font-family: inherit;
+  color: #041e41;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.electrolux-01__text,
+.electrolux-01__online__text,
+.electrolux-01__block-text p,
+.electrolux-01__block-text li,
+.electrolux-01__card-box__item__text {
+  color: #041e41;
+  line-height: 1.4;
+}
+
+.electrolux-01__market-container {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.electrolux-01__card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.electrolux-01__card-box__item {
+  -ms-flex-preferred-size: calc(33.33% - 20px);
+      flex-basis: calc(33.33% - 20px);
+  min-width: 226px;
+}
+
+.electrolux-01__card-box__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.electrolux-01__card-box__item__title {
+  color: #041e41;
+  line-height: 1.2;
+  min-height: 118px;
+}
+
+.electrolux-01__card-box__item img {
+  margin-bottom: 36px;
+}
+
+.electrolux-01__card-box__item__text {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 126px;
+  z-index: 1;
+}
+
+.electrolux-01__blocks {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.electrolux-01__block img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center bottom;
+     object-position: center bottom;
+}
+
+.electrolux-01__block-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.electrolux-01__block-title {
+  color: #041e41;
+  line-height: 1.2;
+  margin-bottom: 22px;
+}
+
+.electrolux-01__block-list {
+  margin-left: 17px;
+}
+
+.electrolux-01__block-list__item::marker {
+  font-size: 14px;
+}
+
+.electrolux-01__bottom-banner {
+  padding-bottom: 96px;
+}
+
+.electrolux-01__online {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.electrolux-01__online__market-container {
+  max-width: 800px;
+  margin: 0 auto 0;
+}
+
+.electrolux-01__footer {
+  background-color: #041e41;
+  padding: 17px 22px;
+}
+
+.electrolux-01__footer p {
+  color: #fff;
+}
+
+@media screen and (min-width: 401px) {
+  .electrolux-01__block-text {
+    padding: 6% 25px 6% 6%;
+  }
+}
+
+@media (min-width: 768px) {
+  .electrolux-01__top-banner {
+    margin-bottom: calc(20px + 65 * (100vw / 1400));
+  }
+
+  .electrolux-01__section-title {
+    font-size: calc(22px + 16 * (100vw / 1400));
+  }
+
+  .electrolux-01__text,
+  .electrolux-01__online__text,
+  .electrolux-01__block-text p,
+  .electrolux-01__block-text li,
+  .electrolux-01__card-box__item__text {
+    font-size: calc(16px + 0 * (100vw / 1400));
+  }
+
+  .electrolux-01__card-box {
+    padding-top: calc(20px + 65 * (100vw / 1400));
+  }
+
+  .electrolux-01__card-box__item__title {
+    font-size: calc(20px + 2 * (100vw / 1400));
+  }
+
+  .electrolux-01__block-title {
+    font-size: calc(20px + 4 * (100vw / 1400));
+  }
+
+  .electrolux-01__bottom-banner {
+    padding-bottom: calc(30px + 66 * (100vw / 1400));
+  }
+
+  .electrolux-01__online__market-container {
+    margin-bottom: calc(60px + 25 * (100vw / 1400));
+  }
+
+  .electrolux-01__footer p {
+    font-size: calc(10px + 2 * (100vw / 1400));
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .electrolux-01__card-box__item:first-child .electrolux-01__card-box__item__box {
+    position: relative;
+  }
+
+  .electrolux-01__card-box__item:first-child .electrolux-01__card-box__item__box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: 100%;
+    width: 200vw;
+    background-color: #f3f5f7;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  .electrolux-01__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 460px;
+  }
+
+  .electrolux-01__block-img,
+  .electrolux-01__block-text {
+    width: 100%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .electrolux-01__block-revers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 767px) {
+  .electrolux-01__top-banner {
+    margin-bottom: calc(20px + 110.5 * ((100vw - 320px) / 1400));
+  }
+
+  .electrolux-01__section-title {
+    font-size: calc(22px + 27.2 * ((100vw - 320px) / 1400));
+  }
+
+  .electrolux-01__text,
+  .electrolux-01__online__text,
+  .electrolux-01__block-text p,
+  .electrolux-01__block-text li,
+  .electrolux-01__card-box__item__text {
+    font-size: calc(16px + 0 * ((100vw - 320px) / 1400));
+  }
+
+  .electrolux-01__card-box {
+    padding-top: calc(20px + 110.5 * ((100vw - 320px) / 1400));
+  }
+
+  .electrolux-01__card-box__item__title {
+    font-size: calc(20px + 3.4 * ((100vw - 320px) / 1400));
+  }
+
+  .electrolux-01__block-title {
+    font-size: calc(20px + 6.8 * ((100vw - 320px) / 1400));
+  }
+
+  .electrolux-01__bottom-banner {
+    padding-bottom: calc(30px + 112.2 * ((100vw - 320px) / 1400));
+  }
+
+  .electrolux-01__online__market-container {
+    margin-bottom: calc(60px + 42.5 * ((100vw - 320px) / 1400));
+  }
+
+  .electrolux-01__footer p {
+    font-size: calc(10px + 3.4 * ((100vw - 320px) / 1400));
+  }
+}
+
+@media screen and (max-width: 767.8px) {
+  .electrolux-01__perfect-air {
+    padding-bottom: 0;
+  }
+
+  .electrolux-01__card-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .electrolux-01__card-box__item {
+    -ms-flex-preferred-size: calc(50% - 10px);
+        flex-basis: calc(50% - 10px);
+    margin-right: 0 !important;
+    text-align: center;
+    background-color: #f3f5f7;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+  }
+
+  .electrolux-01__card-box__item img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .electrolux-01__card-box__item__title {
+    min-height: auto;
+    padding-bottom: 20px;
+  }
+
+  .electrolux-01__card-box__item__text {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .electrolux-01__card-box__item {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .electrolux-01__block-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+@supports (-webkit-appearance:none){
+
+}
+
+ @media screen and (min-width: 401px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media (min-width: 768px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media screen and (min-width: 768px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media screen and (min-width: 961px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media screen and (max-width: 960px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media (max-width: 767px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media screen and (max-width: 767.8px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media screen and (max-width: 767px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media screen and (max-width: 576px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media screen and (max-width: 400px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
